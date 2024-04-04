@@ -1,12 +1,17 @@
 spring:
+  data: 
+    mongodb:
+      host: localhost
+      port: 27017
+      database: stockdb
+ 
   datasource:
-    url: jdbc:mysql://localhost:3306/olxadvertises
+    url: jdbc:mysql://zensar.com:3306/zenstockdb
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: Mala@123
- jpa:
-    hibernate:
-      ddl-auto: update
+  jpa:
+    hibernate.ddl-auto: update
     show-sql: true
     properties:
       hibernate:
