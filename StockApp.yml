@@ -6,7 +6,7 @@ spring:
       database: stockdb
  
   datasource:
-    url: jdbc:mysql://localhost:3306/stockdb
+    url: jdbc:mysql://zensor.com:3306/zenstockdb
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: Mala@123
